@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  background: #cd5d5d;
+}
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+h1 {
+  margin: 0 auto;
+  text-align: center;
+  font-family: Inter;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77.45px;
+}
+h2 {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48.41px;
+  text-align: center;
+}
+a {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18.15px;
+  text-align: center;
+}
+
+span {
+  color: yellow;
+  text-align: center;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  background: #000000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+b {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.05px;
+  text-align: center;
+  /* margin-top: 20px; */
+}
+p {
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.73px;
+  text-align: center;
+}
